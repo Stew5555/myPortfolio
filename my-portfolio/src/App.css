@@ -11,6 +11,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 100;
 
 }
 
@@ -55,6 +57,29 @@ nav ul li a {
 }
 
 .home {
-  background-color: #fff;
-  height: 1000px;
+  background-color: #ef1919;
+  height: 750px;
+  margin-bottom: 20px;
+}
+
+.aboutme {
+  background-color: #56d025;
+  height: 750px;
+  margin-bottom: 20px;
+}
+
+.projects {
+  background-color: #e30cdc;
+  height: 750px;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  background-color: #0a8fbf;
+  height: 750px;
+  margin-bottom: 20px;
+}
+
+.project1{
+
 }

@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Carousel } from 'react-responsive-carousel'
 
 function App() {
   return (
@@ -16,11 +17,28 @@ function App() {
             </nav>
         </header>
 
-        <div class="container">
-            <div class="home">
+        <div id='home' class="container">
+            <div className='home'>
                 <h2>hello</h2>
             </div>
-            <div class="aboutme">
+            <div id='about' className='aboutme'>
+
+            </div>
+            <div id='projects' className='projects'>
+              <Carousel>
+              <div className='project1'>
+              <h3>Project 1</h3>
+            </div>
+            <div className='project2'>
+              <h3>Project 2</h3>
+            </div>
+            <div className='project3'>
+              <h3>Project 3</h3>
+            </div>
+              </Carousel>
+
+            </div>
+            <div id='contacts' className='contacts'>
 
             </div>
 
